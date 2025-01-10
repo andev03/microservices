@@ -1,5 +1,6 @@
-package com.eazybytes.accounts;
+package com.eazybytes.loans;
 
+import com.eazybytes.loans.dto.LoansContactInfoDto;
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
@@ -7,21 +8,19 @@ import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.info.License;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@Tag(
-		name = "CRUD REST APIs for Accounts in EazyBank",
-		description = "CRUD REST APIs in EazyBank to CREATE, UPDATE, FETCH AND DELETE account details"
-)
 @SpringBootApplication
-/*@ComponentScans({ @ComponentScan("com.eazybytes.accounts.controller") })
-@EnableJpaRepositories("com.eazybytes.accounts.repository")
-@EntityScan("com.eazybytes.accounts.model")*/
-@EnableJpaAuditing
+/*@ComponentScans({ @ComponentScan("com.eazybytes.loans.controller") })
+@EnableJpaRepositories("com.eazybytes.loans.repository")
+@EntityScan("com.eazybytes.loans.model")*/
+@EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
+@EnableConfigurationProperties(value = {LoansContactInfoDto.class})
 @OpenAPIDefinition(
 		info = @Info(
-				title = "Accounts microservice REST API Documentation",
-				description = "EazyBank Accounts microservice REST API Documentation",
+				title = "Loans microservice REST API Documentation",
+				description = "EazyBank Loans microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
 						name = "Madan Reddy",
@@ -34,14 +33,13 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				)
 		),
 		externalDocs = @ExternalDocumentation(
-				description =  "EazyBank Accounts microservice REST API Documentation",
+				description = "EazyBank Loans microservice REST API Documentation",
 				url = "https://www.eazybytes.com/swagger-ui.html"
 		)
 )
-public class AccountsApplication {
+public class LoansApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccountsApplication.class, args);
+		SpringApplication.run(LoansApplication.class, args);
 	}
-
 }
