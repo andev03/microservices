@@ -14,3 +14,4 @@ com\eazybytes\loans\LoansApplication.class
 com\eazybytes\loans\dto\ErrorResponseDto.class
 com\eazybytes\loans\exception\ResourceNotFoundException.class
 com\eazybytes\loans\exception\LoanAlreadyExistsException.class
+com\eazybytes\loans\dto\LoansContactInfoDto.class
