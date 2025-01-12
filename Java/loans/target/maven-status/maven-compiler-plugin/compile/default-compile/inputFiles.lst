@@ -2,6 +2,7 @@ S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\co
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\constants\LoansConstants.java
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\controller\LoansController.java
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\dto\ErrorResponseDto.java
+S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\dto\LoansContactInfoDto.java
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\dto\LoansDto.java
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\dto\ResponseDto.java
 S:\Programming_Language\Study\Microservices\Practice\Java\loans\src\main\java\com\eazybytes\loans\entity\BaseEntity.java
