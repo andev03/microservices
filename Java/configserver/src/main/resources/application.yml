@@ -2,21 +2,21 @@ spring:
   application:
     name: "configserver"
   profiles:
-#    active: native
-    active: git
+    active: native
+  #    active: git
   cloud:
     config:
       server:
-#        native:
-#          search-locations: "classpath:/config"
-#          search-locations: "file:///Users//eazybytes//Documents//config"
-        git:
-          uri: "https://github.com/andev03/microservices.git"
-          default-label: master
-          timeout: 5
-          clone-on-start: true
-          force-pull: true
-          search-paths: "microservices_cofig_java"
+        native:
+          search-locations: "classpath:/config"
+#          search-locations: "file:///S:/Programming_Language/Study/Microservices/Practice/microservices_config_java"
+#        git:
+#          uri: "https://github.com/andev03/microservices.git"
+#          default-label: master
+#          timeout: 5
+#          clone-on-start: true
+#          force-pull: true
+#          search-paths: "microservices_cofig_java"
 
 management:
   endpoints:

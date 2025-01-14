@@ -1,11 +1,11 @@
 build:
   version: "2.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related QA APIs "
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
   contactDetails:
-    name: "Smitha Ray - QA Lead"
-    email: "42ebfa78d8908942f2b8049ed7c8a819092d8bea79f2edca1bbc686aa831776dca5ed77bd7637cc086978df002c9a7ae"
+    name: "Cherryl Pankaj - QA Lead"
+    email: "cherryl@eazybank.com"
   onCallSupport:
-    - (666) 265-3765
-    - (666) 734-8371
+    - (310) 875-4367
+    - (201) 236-1267

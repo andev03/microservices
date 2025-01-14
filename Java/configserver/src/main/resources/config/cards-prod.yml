@@ -1,11 +1,11 @@
 build:
   version: "1.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related prod APIs "
+cards:
+  message: "Hey, welcome to EazyBank cards related prod APIs"
   contactDetails:
-    name: "Reine Aishwarya - Product Owner"
-    email: "d3a7e0f49494256e686b050cff4f4aac0a9ab078c06cdd5eb13ea9c34d47b2003a56d85ea4c5b1aeea4e6508c1b4c671"
+    name: "Sandra Harald - Product Owner"
+    email: "sandra@eazybank.com"
   onCallSupport:
-    - (453) 392-4829
-    - (236) 203-0384
+    - (617) 432-2356
+    - (936) 564-8721

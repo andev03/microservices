@@ -1,11 +1,11 @@
 build:
-  version: "1.0"
+  version: "3.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related local APIs "
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
   contactDetails:
-    name: "John Doe - Developer"
-    email: "3ecae89b4ee466fd6ab71b5a0d97f49132c5a98af0854d2a4ff0f4ac22bc920bec7193cedca1b8d423fe1833ae7d7db5"
+    name: "Dragos Lech - Developer"
+    email: "dragos@eazybank.com"
   onCallSupport:
-    - (555) 555-1234
-    - (555) 523-1345
+    - (412) 419-3491
+    - (915) 382-1932
