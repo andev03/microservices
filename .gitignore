@@ -1,5 +1,13 @@
+/Java/accounts/target/cards-0.0.1-SNAPSHOT.jar
 /Java/cards/target/cards-0.0.1-SNAPSHOT.jar
 /Java/loans/target/loans-0.0.1-SNAPSHOT.jar
 /Java/configserver/target/configserver-0.0.1-SNAPSHOT.jar
 /Java/eurekaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar
 /Java/gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.jar
+
+Java/accounts/opentelemetry-javaagent-2.11.0.jar
+Java/cards/opentelemetry-javaagent-2.11.0.jar
+Java/loans/opentelemetry-javaagent-2.11.0.jar
+Java/configserver/opentelemetry-javaagent-2.11.0.jar
+Java/eurekaserver/opentelemetry-javaagent-2.11.0.jar
+Java/gatewayserver/opentelemetry-javaagent-2.11.0.jar

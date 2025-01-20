@@ -354,7 +354,6 @@ services:
       file: common-config.yml
       service: microservice-eureka-config
 
-
   gatewayserver:
     image: "andev03/gatewayserver:latest"
     container_name: gatewayserver-ms
@@ -373,6 +372,36 @@ services:
     extends:
       file: common-config.yml
       service: microservice-eureka-config
+
+  accountsdb:
+    container_name: accountsdb
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: accountsdb
+    extends:
+      file: common-config.yml
+      service: microservice-db-config
+
+  loansdb:
+    container_name: loansdb
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: loansdb
+    extends:
+      file: common-config.yml
+      service: microservice-db-config
+
+  cardsdb:
+    container_name: cardsdb
+    ports:
+      - 3308:3306
+    environment:
+      MYSQL_DATABASE: cardsdb
+    extends:
+      file: common-config.yml
+      service: microservice-db-config
 
 networks:
   eazybank:
