@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8adf0e-ebaf-4304-ae71-c90860d6c111" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/accounts/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cards/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.heal/mrf/list.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
@@ -17,23 +13,9 @@
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/tmp/.trash/cb7ac6f7-55f1-48fb-920c-04efe0405fbf/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/.minio.sys/tmp/2fbdebd8-b0e8-4120-b55c-df0270b45b60" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/loki-data/index/index_20105/tenant1/1737189493535902139-compactor-1737087501773-1737183505688-831df939.tsdb.gz/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/loki-data/index/index_20106/tenant1/1737193089240757294-compactor-1737098417669-1737192478828-e111a921.tsdb.gz/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose-db.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/loans/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/surefire-reports/2025-01-18T13-19-23_582.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/surefire-reports/TEST-com.eazybytes.loans.LoansApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/surefire-reports/TEST-com.eazybytes.loans.LoansApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/surefire-reports/com.eazybytes.loans.LoansApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/surefire-reports/com.eazybytes.loans.LoansApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/.data/minio/loki-data/index/index_20108/tenant1/1737364842315915094-compactor-1737098417669-1737363848466-dc026204.tsdb.gz/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +56,11 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.AccountsApplication (1).executor": "Run",
-    "Spring Boot.AccountsApplication.executor": "Debug",
+    "Spring Boot.AccountsApplication.executor": "Run",
     "Spring Boot.CardsApplication.executor": "Run",
     "Spring Boot.ConfigserverApplication.executor": "Run",
     "Spring Boot.EurekaserverApplication.executor": "Run",
-    "Spring Boot.GatewayserverApplication.executor": "Debug",
+    "Spring Boot.GatewayserverApplication.executor": "Run",
     "Spring Boot.LoansApplication.executor": "Run",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
@@ -193,7 +175,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <list>
@@ -206,9 +190,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigserverApplication" />
-        <item itemvalue="Spring Boot.LoansApplication" />
         <item itemvalue="Spring Boot.CardsApplication" />
+        <item itemvalue="Spring Boot.LoansApplication" />
+        <item itemvalue="Spring Boot.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +227,7 @@
       <workItem from="1737082150682" duration="857000" />
       <workItem from="1737083088181" duration="19971000" />
       <workItem from="1737158368749" duration="20536000" />
+      <workItem from="1737432584832" duration="11657000" />
     </task>
     <servers />
   </component>
